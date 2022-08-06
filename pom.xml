@@ -17,7 +17,7 @@
 		<frontend-src-dir>frontend</frontend-src-dir>
 		<node.version>v16.16.0</node.version>
 		<yarn.version>v1.16.0</yarn.version>
-		<frontend-maven-plugin.version>1.7.6</frontend-maven-plugin.version>
+		<frontend-maven-plugin.version>1.9.0</frontend-maven-plugin.version>
 		<github.global.server>github</github.global.server>
 	</properties>
 
@@ -70,9 +70,9 @@
 					<message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
 					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
-					<branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
+					<branch>refs/remotes/origin/main</branch>                       <!-- remote branch name -->
 					<includes><include>**/*</include></includes>
-					<repositoryName>maven-repo</repositoryName>      <!-- github repo name -->
+					<repositoryName>https://github.com/kumarsunny0013/maven-repo</repositoryName>      <!-- github repo name -->
 					<repositoryOwner>kumarsunny0013</repositoryOwner>    <!-- github username  -->
 				</configuration>
 				<executions>
