@@ -105,7 +105,7 @@ function Ws() {
         return alert("type a message to send");
         ws3.send(message);
         setMessage("");
-    },[ws3]
+    },[message]
         );
     // useEffect(() => {
         if(ws3!=null){
