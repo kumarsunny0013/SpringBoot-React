@@ -32,6 +32,16 @@
     font-size: 22px
 }
 
+.blotterFooter {
+    background: black;
+    color: #fff;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: -15px
+}
+
 .selection {
     background: black;
     color: #fff;

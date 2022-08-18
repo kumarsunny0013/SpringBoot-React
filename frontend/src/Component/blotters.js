@@ -43,7 +43,7 @@ const Blotter = () => {
                     {gridHeading("Market")}
                     {gridSection()}
                     {gridHeading("Others")}
-                    {gridSection()}
+                    <div className={style.blotterFooter}></div>
                 </div>
             </div>
         </>
