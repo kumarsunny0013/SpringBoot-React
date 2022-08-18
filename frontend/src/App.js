@@ -1,11 +1,13 @@
 import './App.css';
-import Ws from './ws';
+import Routing from './Routing/routing';
+// import Ws from './ws';
 
 function App() {
   return (
     <div className="App">
      <h2 >Testing WebSocket</h2>
-      <Ws/>
+     <Routing/>
+      {/* <Ws/> */}
     </div>
   );
 }

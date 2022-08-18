@@ -1,0 +1,48 @@
+.mainContainer {
+    margin: 100px;
+    width: 300px
+}
+
+.gridItem {
+    border: 1px solid blue;
+}
+
+.gridContainer {
+    display: grid;
+    border: 3px solid blue;
+    grid-template-columns: auto auto;
+    margin-top: -15px;
+}
+
+.gridHeading {
+    margin-top: -15px;
+}
+
+.gridHeading .heading {
+    background: skyblue;
+    color: #fff;
+}
+
+.orderSummary {
+    background: black;
+    color: #fff;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 22px
+}
+
+.selection {
+    background: black;
+    color: #fff;
+    margin-top: 2px
+}
+
+.blotterContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridFill{
+    background: lightgreen;
+}
